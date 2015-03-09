@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="minesweeper.MinesweeperTest" tests="44" skipped="0" failures="0" errors="0" timestamp="2015-02-27T06:28:38" hostname="Monse-PC" time="0.078">
+  <properties/>
+  <testcase name="exposeCellWhereRowIsBelowRowRange" classname="minesweeper.MinesweeperTest" time="0.016"/>
+  <testcase name="gameLostWhenMinedCellIsExposed" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeCellWontExposeASealedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="sealCellWontSealAnExposedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="countAdjacentMines" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="sealCellWhereColumnIsBelowColumnRange" classname="minesweeper.MinesweeperTest" time="0.015"/>
+  <testcase name="canary" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="sealUnexposedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="isAMinedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="minesPlacedAtRandomLocations" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="countAdjacentMinesWhenOnlyMineIsAtSameLocation" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="unsealASealedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeNeighborWontCallExposeCellWhenColumnIsBelowColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="gameWonIfAllMinedCellsAreSealedRemainingAreExposed" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="boardHasTenMines" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="sealCellWhereRowIsAboveRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="sealCellWhereRowIsBelowRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="whenExposeCellIsCalledExposeNeighborIsNotCalledAtAllForAnAlreadyExposedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="unsealCellWhereRowIsAboveRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="unsealCellWhereRowIsBelowRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="isAnAdjacentCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeUnexposedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="unsealCellWhereColumnIsAboveColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="isMinedWhereColumnIsAboveColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="whenACellIsExposedItTriesToExposeItsNeighbors" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="gameNotLostIfMinedCellIsSealed" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="whenAnAdjacentCellIsExposedExposeNeighborIsNotCalled" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeCellThatAlreadyIsExposed" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="whenAMinedCellIsExposedExposeNeighborIsNotCalled" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeCellWhereColumnIsAboveColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="isAnEmptyCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="isMinedWhereRowIsAboveRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="inMinedWhereColumnIsBelowColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="unsealCellWhereColumnIsBelowColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="sealCellWhereColumnIsAboveColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="isMinedWhereRowIsBelowRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeCellWontCallExposeNeighborForASealedCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeNeighborWontCallExposeCellWhenRowIsAboveRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="gameInProgress" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeNeighborWontCallExposeCellWhenRowIsBelowRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeNeighborWontCallExposeCellWhenColumnIsAboveColumnRange" classname="minesweeper.MinesweeperTest" time="0.015"/>
+  <testcase name="exposeCellWhereColumnIsBelowColumnRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeNeighborCallsExposeForValidCell" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <testcase name="exposeCellWhereRowIsAboveRowRange" classname="minesweeper.MinesweeperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,40 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+sourceCompatibility = 1.8
+
+sourceSets.main.java.srcDirs = ['src']
+sourceSets.test.java.srcDirs = ['test']
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: "4.+"
+}
+
+repositories {
+  mavenCentral()
+}
+
+task copyImages(type: Copy) {
+  from('src/minesweeper/ui')
+	into('build/classes/main/minesweeper/ui')
+	include('*.png')
+}
+
+task(runui, dependsOn: ['classes', 'copyImages'], type: JavaExec) {  
+	main = 'minesweeper.ui.MinesweeperBoard'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+jacocoTestReport {
+    doFirst{
+        classDirectories = files('./build/classes/main/minesweeper')
+    }
+
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination "build/reports/coverageHtml"
+    }
+}
+
+defaultTasks 'clean', 'test', 'jacocoTestReport', 'runui'
